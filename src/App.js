@@ -6,6 +6,15 @@ import {Route} from 'react-router-dom';
 const App = () => (
   <div>
     <Navigation />
+    <Route exact path="/">
+      <Home />
+    </Route>
+    <Route path="/">
+      <About />
+    </Route>
+    <Route path="/">
+      <Contact />
+    </Route>
   </div>
 );
 
